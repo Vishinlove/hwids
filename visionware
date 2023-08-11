@@ -2,6 +2,7 @@
 
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
 local WhitelistedHWIDs =  loadstring(game:HttpGet("https://raw.githubusercontent.com/Vishinlove/hwids/main/hwids"))()
+
 local qNVAKkuwxNpqruLjSRHg = false
 
 function CheckHWID(hwidval)
