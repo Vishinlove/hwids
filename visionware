@@ -1,7 +1,7 @@
 -- HWID Whitelist
 
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
-local WhitelistedHWIDs =  loadstring(game:https://github.com/BIvck/DonutWare.Vape/blob/main/Hwids"))()
+local WhitelistedHWIDs =  loadstring(game:HttpGet("https://raw.githubusercontent.com/Vishinlove/hwids/main/hwids"))()
 local qNVAKkuwxNpqruLjSRHg = false
 
 function CheckHWID(hwidval)
